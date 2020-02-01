@@ -7,6 +7,6 @@ class Application
     if Time.now <
     else
       resp.write "Good Afternoon"
-      
+
   end
 end
