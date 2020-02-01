@@ -1,6 +1,6 @@
 
 class Application
-  def call
+  def call(env)
     #if before Time.now < noon "Good Morning"
     #else resp.write "Good Afternoon"
     resp = Rack::Response.new
